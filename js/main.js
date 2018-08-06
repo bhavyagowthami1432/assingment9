@@ -26,7 +26,7 @@ function profileData(pro){
     subDiv.classList.add("subdiv");
     mainDiv.appendChild(subDiv);
     var img=document.createElement("img");
-    img.src="pro[i].image";
+    img.src=pro[i].image;
     img.alt="image";
    subDiv.appendChild(img);
     var name=document.createElement("h2");
